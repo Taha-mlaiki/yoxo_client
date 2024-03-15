@@ -26,7 +26,7 @@ const Event = () => {
       e.preventDefault();
         try {
           setLoading(true)
-          const res = await fetch("https://yoxo-api.onrender.com/auth/signup",{
+          const res = await fetch("https://yoxo-api.vercel.app/auth/signup",{
             method:"POST",
             headers:{
               "Content-Type":"application/json"
